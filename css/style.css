@@ -371,26 +371,29 @@
 }
 /*** service End ***/
 
-
 /*** Portfolio Start ***/
 .portfolio-content .portfolio-item .portfolio-img {
     position: relative;
     width: 100%;
-    height: 150px;
+    height: 300px; /* Set a fixed height for the images */
 }
 
 .portfolio-item .portfolio-img .portfolio-img-inner {
     width: 100%;
-    height: 150px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .portfolio-item .portfolio-img .portfolio-img-inner img {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
 .portfolio-content .portfolio-item .view-img {
@@ -399,17 +402,7 @@
     justify-content: end;
 }
 
-.portfolio-content .portfolio-item .portfolio-img .portfolio-img-inner {
-    visibility: hidden;
-    transition: 0.5s;
-}
-
-.portfolio-content .portfolio-item:hover .portfolio-img .portfolio-img-inner {
-    visibility: visible;
-    transform: rotate(-6deg);
-}
 /*** Portfolio End ***/
-
 
 /*** Blog Start ***/
 .blog-content .blog-btn a {
