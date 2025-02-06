@@ -124,7 +124,7 @@
         height: 100%;
         top: 0;
         left: 0;
-        background: white; /* Change from var(--bs-dark) to white */
+        background: transparent; /* Change from var(--bs-dark) to white */
         z-index: -1;
     }
 }
