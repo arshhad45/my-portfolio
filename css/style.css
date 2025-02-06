@@ -167,7 +167,6 @@
 .nav-section {
     position: relative;
 }
-
 .nav-section .navbar {
     position: fixed;
     width: 100%;
@@ -177,25 +176,20 @@
     transform: translateY(-50%);
     z-index: 99;
 }
-
 .navbar.navbar-light {
     background: transparent;
     width: 100%;
 }
-
 .navbar .navbar-nav {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .navbar .navbar-nav .nav-link {
     width: 100%;
     display: flex;
     align-items: center;
-    
 }
-
 .navbar-nav .nav-link span {
     width: 40px; 
     height: 40px;
@@ -205,28 +199,26 @@
     align-items: center;
     justify-content: center;
     background: transparent;
-    color: var(--bs-body);
+    color: var(--bs-body); /* Neutral text color */
     transition: 0.5s;
 }
-
 .nav-section .navbar .navbar-nav .nav-item {
     height: 40px;
     padding: 0;
     margin-bottom: 3px;
     border: 1px solid rgba(0, 0, 0, .08);
-    background: var(--bs-white);
-    color: var(--bs-body);
+    background: var(--bs-white); /* Neutral background */
+    color: var(--bs-body); /* Neutral text color */
     font-size: 14px;
     font-weight: 700;
     transition: 0.5s;
 }
-
 .nav-section .navbar .navbar-nav .nav-item:hover {
     margin-right: calc(100% + 40px);
-    color: var(--bs-primary);
+    color: var(--bs-dark); /* Replace blue with dark or neutral color */
+    background: var(--bs-light); /* Optional: Add a light background for hover */
 }
 /*** Navbar End ***/
-
 
 /*** About Start ***/
 .about-content .about-img {
