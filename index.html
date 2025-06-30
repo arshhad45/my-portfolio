@@ -368,71 +368,57 @@
 </div> <!-- End container-fluid -->
 <!-- Experience End -->
 <!-- Projects Start -->
-<div class="container-fluid bg-light" id="Projects">
-    <div class="container">
-        <div class="row g-0 align-items-stretch">
-            <!-- Left Sidebar: Project Header -->
-            <div class="col-lg-3">
-                <div class="portfolio-header bg-dark h-100 d-flex flex-column justify-content-center p-5">
-                    <div class="wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="text-white sub-title">Projects</p>
-                        <h1 class="display-6 text-white mb-0">My Recent Projects</h1>
-                    </div>
-                </div>
+<div class="container-fluid" id="Projects">
+    <div class="row g-0">
+        <!-- Blue Sidebar -->
+        <div class="col-lg-3 bg-dark d-flex align-items-center justify-content-center">
+            <div class="p-5 w-100 text-start wow fadeInUp" data-wow-delay="0.1s">
+                <p class="text-white sub-title">Projects</p>
+                <h1 class="display-6 text-white mb-0">My Recent Projects</h1>
             </div>
+        </div>
 
-            <!-- Right Section: Project Items -->
-            <div class="col-lg-9">
-                <div class="portfolio-content h-100 p-5">
-                    <div class="row g-4">
-
-                        <!-- Project 1: AI Chatbot -->
-                        <div class="col-12">
-                            <div class="portfolio-item border-bottom pb-4 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="row g-4 align-items-center">
-                                    <!-- Text -->
-                                    <div class="col-xl-6">
-                                        <h4 class="text-muted">Chatbot Development</h4>
-                                        <h2 class="fw-bold mb-3">AI Chatbot</h2>
-                                        <p>
-                                            A conversational AI chatbot built using Flask and DialoGPT. Users can interact with it in real-time through a web interface. The project demonstrates natural language processing integration with web technologies.
-                                        </p>
-                                        <a href="https://syedarshad45.pythonanywhere.com/" class="btn btn-primary mt-2" target="_blank">Access Chatbot</a>
-                                    </div>
-                                    <!-- Image -->
-                                    <div class="col-xl-6 text-center">
-                                        <img src="img/images.jpg" class="img-fluid rounded" alt="AI Chatbot Project Image" style="max-height: 250px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Additional Projects: Duplicate and customize below -->
-                        <!--
-                        <div class="col-12">
-                            <div class="portfolio-item border-bottom pb-4 wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-muted">Project Category</h4>
-                                        <h2 class="fw-bold mb-3">Project Title</h2>
-                                        <p>Project description here. Mention tools, technologies, problem solved, and impact.</p>
-                                        <a href="#" class="btn btn-primary mt-2" target="_blank">View Project</a>
-                                    </div>
-                                    <div class="col-xl-6 text-center">
-                                        <img src="img/your-image.jpg" class="img-fluid rounded" alt="Project Image" style="max-height: 250px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        -->
-
+        <!-- Project Content -->
+        <div class="col-lg-9 bg-light">
+            <div class="p-5">
+                <!-- Project 1 -->
+                <div class="row g-4 align-items-center border-bottom pb-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-xl-6">
+                        <h4 class="text-muted">Chatbot Development</h4>
+                        <h2 class="fw-bold mb-3">AI Chatbot</h2>
+                        <p>
+                            A conversational AI chatbot built using Flask and DialoGPT. Users can interact with it in real-time through a web interface. The project demonstrates natural language processing integration with web technologies.
+                        </p>
+                        <a href="https://syedarshad45.pythonanywhere.com/" class="btn btn-primary mt-2" target="_blank">Access Chatbot</a>
+                    </div>
+                    <div class="col-xl-6 text-center">
+                        <img src="img/images.jpg" class="img-fluid rounded" alt="AI Chatbot Project Image" style="max-height: 250px;">
                     </div>
                 </div>
+
+                <!-- Add More Projects Below -->
+                <!-- 
+                <div class="row g-4 align-items-center border-bottom pb-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-xl-6">
+                        <h4 class="text-muted">Project Category</h4>
+                        <h2 class="fw-bold mb-3">Project Title</h2>
+                        <p>
+                            Short description of the project.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-2" target="_blank">View Project</a>
+                    </div>
+                    <div class="col-xl-6 text-center">
+                        <img src="img/your-image.jpg" class="img-fluid rounded" alt="Project Image" style="max-height: 250px;">
+                    </div>
+                </div>
+                -->
+
             </div>
         </div>
     </div>
 </div>
 <!-- Projects End -->
+
 
 <!-- Skills Start -->
 <div class="container-fluid">
@@ -448,72 +434,97 @@
                 </div>
             </div>
 
-            <!-- Skills Content -->
-            <div class="col-lg-9">
-                <div class="skills-content h-100 pt-6 ps-6 pb-6">
-                    <div class="row g-4">
-                        <!-- Data Science -->
-                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="text-primary text-center mb-3">
-                                    <span class="fas fa-database fa-3x"></span>
-                                </div>
-                                <div class="counter-counting d-flex justify-content-center">
-                                    <h4 class="display-6" data-toggle="counter-up">94</h4>
-                                    <h4 class="display-6">%</h4>
-                                </div>
-                                <p class="mb-0">Data Science</p>
-                            </div>
-                        </div>
+          <!-- Skills Content -->
+<div class="col-lg-9">
+    <div class="skills-content h-100 pt-6 ps-6 pb-6">
+        <div class="row g-4">
+            <!-- Data Science -->
+            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="text-primary text-center mb-3">
+                        <span class="fas fa-database fa-3x"></span>
+                    </div>
+                    <div class="counter-counting d-flex justify-content-center">
+                        <h4 class="display-6" data-toggle="counter-up">94</h4>
+                        <h4 class="display-6">%</h4>
+                    </div>
+                    <p class="mb-0">Data Science</p>
+                </div>
+            </div>
 
-                        <!-- Machine Learning -->
-                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="text-primary text-center mb-3">
-                                    <span class="fas fa-brain fa-3x"></span>
-                                </div>
-                                <div class="counter-counting d-flex justify-content-center">
-                                    <h4 class="display-6" data-toggle="counter-up">95</h4>
-                                    <h4 class="display-6">%</h4>
-                                </div>
-                                <p class="mb-0">Machine Learning</p>
-                            </div>
-                        </div>
+            <!-- Machine Learning -->
+            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="text-primary text-center mb-3">
+                        <span class="fas fa-brain fa-3x"></span>
+                    </div>
+                    <div class="counter-counting d-flex justify-content-center">
+                        <h4 class="display-6" data-toggle="counter-up">95</h4>
+                        <h4 class="display-6">%</h4>
+                    </div>
+                    <p class="mb-0">Machine Learning</p>
+                </div>
+            </div>
 
-                        <!-- English Speaking Skills -->
-                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="text-primary text-center mb-3">
-                                    <span class="fas fa-language fa-3x"></span>
-                                </div>
-                                <div class="counter-counting d-flex justify-content-center">
-                                    <h4 class="display-6" data-toggle="counter-up">98</h4>
-                                    <h4 class="display-6">%</h4>
-                                </div>
-                                <p class="mb-0">English Speaking Skills</p>
-                            </div>
-                        </div>
+            <!-- English Speaking Skills -->
+            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="text-primary text-center mb-3">
+                        <span class="fas fa-language fa-3x"></span>
+                    </div>
+                    <div class="counter-counting d-flex justify-content-center">
+                        <h4 class="display-6" data-toggle="counter-up">98</h4>
+                        <h4 class="display-6">%</h4>
+                    </div>
+                    <p class="mb-0">English Speaking Skills</p>
+                </div>
+            </div>
 
-                        <!-- HTML & CSS -->
-                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
-                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.7s">
-                                <div class="text-primary text-center mb-3">
-                                    <span class="fab fa-html5 fa-3x"></span>
-                                </div>
-                                <div class="counter-counting d-flex justify-content-center">
-                                    <h4 class="display-6" data-toggle="counter-up">98</h4>
-                                    <h4 class="display-6">%</h4>
-                                </div>
-                                <p class="mb-0">HTML & CSS</p>
-                            </div>
-                        </div>
-                    </div> <!-- End row -->
-                </div> <!-- End skills-content -->
-            </div> <!-- End col-lg-9 -->
+            <!-- Data Visualization -->
+            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="text-primary text-center mb-3">
+                        <span class="fas fa-chart-bar fa-3x"></span>
+                    </div>
+                    <div class="counter-counting d-flex justify-content-center">
+                        <h4 class="display-6" data-toggle="counter-up">92</h4>
+                        <h4 class="display-6">%</h4>
+                    </div>
+                    <p class="mb-0">Data Visualization</p>
+                </div>
+            </div>
+
+            <!-- Python -->
+            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="text-primary text-center mb-3">
+                        <span class="fab fa-python fa-3x"></span>
+                    </div>
+                    <div class="counter-counting d-flex justify-content-center">
+                        <h4 class="display-6" data-toggle="counter-up">96</h4>
+                        <h4 class="display-6">%</h4>
+                    </div>
+                    <p class="mb-0">Python</p>
+                </div>
+            </div>
+
+            <!-- Seaborn & Matplotlib -->
+            <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="1.1s">
+                    <div class="text-primary text-center mb-3">
+                        <span class="fas fa-chart-line fa-3x"></span>
+                    </div>
+                    <div class="counter-counting d-flex justify-content-center">
+                        <h4 class="display-6" data-toggle="counter-up">93</h4>
+                        <h4 class="display-6">%</h4>
+                    </div>
+                    <p class="mb-0">Seaborn & Matplotlib</p>
+                </div>
+            </div>
         </div> <!-- End row -->
-    </div> <!-- End container -->
-</div> <!-- End container-fluid -->
-<!-- Skills End -->
+    </div> <!-- End skills-content -->
+</div> <!-- End col-lg-9 -->
+
        
 
         <!-- Service Start -->
